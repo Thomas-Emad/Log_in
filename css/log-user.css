@@ -1,0 +1,112 @@
+body {
+    background-color: #2f3640;
+    width: 100%;
+    background-size: cover;
+    font-family: 'Cairo', sans-serif;
+}
+div {
+    background-color: #1e272e;
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFF;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 35px;
+    padding-bottom: 15px;
+    box-shadow: 10px 10px 7px rgb(22, 20, 20);
+
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 29px;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+input {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #1e272e;
+    border: solid #00a8ff 2px;
+    border-radius: 20px;
+    width: 70%;
+    color: #FFF;
+    outline: none;
+    transition: 0.4s;
+}
+
+.log {
+    border: solid #44bd32 2px;
+    width: 40%;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 12px;
+    text-transform: capitalize;
+    text-align: left;
+    position: absolute;
+    top: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+p a {
+    color: #8f8f8f;
+    text-decoration: none;
+}
+
+
+
+.no-account a {
+    background-color: #1e272e;
+    padding: 10px 15px;
+    border: 2px solid #8f8f8f;
+    border-radius: 20px;
+    transition: 0.4s ease;
+    letter-spacing: 1px;
+    color: #8f8f8f;
+}
+    .no-account a:hover {
+        border: 2px solid #fff;
+        color: #fff;
+    }
+
+div [type = "text"]:hover{
+    width: 85%;
+    box-shadow: 1px 1px 6px #00a8ff;
+}
+
+div [type = "password"]:hover{
+    width: 85%;
+    box-shadow: 1px 1px 6px #00a8ff;
+}
+
+div [type = "text"]:focus{
+    width: 85%;
+    box-shadow: 1px 1px 6px #00a8ff;
+}
+
+div [type = "password"]:focus{
+    width: 85%;
+    box-shadow: 1px 1px 6px #00a8ff;
+}
+
+                                    /* الدرس 34 */
+div .log[type = "submit"]:hover{
+    background: #44bd32;
+    box-shadow: 1px 1px 6px #44bd32;
+}
